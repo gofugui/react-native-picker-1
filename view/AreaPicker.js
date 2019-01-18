@@ -140,7 +140,7 @@ class AreaPicker extends BaseDialog {
                 height: this.props.itemHeight * 5 + this.getSize(15) + this.getSize(44), width: this.mScreenWidth,
                 backgroundColor: '#ffffff'
             }}>
-            <View style={{ width: this.mScreenWidth, height: this.props.itemHeight * 5 + this.getSize(15), flexDirection: 'row', position: 'absolute', bottom: 0 }}>
+            <View style={{ width: this.mScreenWidth, height: this.props.itemHeight * 5 + this.getSize(15), flexDirection: 'row', position: 'absolute', bottom: this.props.itemHeight }}>
                 {this.renderPicker()}
             </View>
             <View style={{
